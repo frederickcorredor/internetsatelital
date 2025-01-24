@@ -13,7 +13,7 @@
             padding: 0px;
         }
         body {
-            margin: 0;
+            margin: 0px;
             font-family: 'Roboto', sans-serif;
             line-height: 1.6;
             background-color: #020202;
@@ -31,12 +31,11 @@
         header {
             background: #0b3d91;
             color: white;
-            padding: 1rem 0;
             text-align: center;
             width: 100%;
             padding: 16px;
             background-image: url('https://www.starlink.com/public-files/residential_b_hero_d.webp');
-            min-height: 60vh;
+            min-height: 80vh;
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
@@ -49,7 +48,9 @@
             margin: 0;
         }
         .container {
-            max-width: 1200px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
             margin: 0 auto;
             padding: 1rem;
         }
@@ -59,7 +60,6 @@
             justify-content: center;
             padding: 2rem;
             text-align: center;
-            background-color: #33333367;
             border-radius: 16px;
             
         }
@@ -74,15 +74,17 @@
         }
 
         .hero h2{
-            font-size: 1.6rem;
+            font-size: 2.6rem;
+            width: 100%;
+            max-width: 550px;
         }
         h2 {
             color: #ffffff;
-            font-size: 1.2rem;
+            font-size: 1.4rem;
             text-shadow: 2px 2px 2px black;
             margin: 16px;
             text-align: center;
-            max-width: 800px;
+            max-width: 450px;
         }
 
         .hero-content p{
@@ -93,7 +95,7 @@
         .cta {
             background: #0b3d91;
             color: white;
-            padding: 1rem;
+            padding: 16px 24px;
             text-align: center;
             margin-top: 2rem;
             border-radius: 16px;
@@ -150,14 +152,6 @@ animation: heartbeat 1.5s ease-in-out infinite both;
 span{
     text-shadow: 1px 1px 1px #ffffff;
     font-weight: 800;
-}
-
-h3{
-width:100%;
-text-align:center;
-font-weight:600;
-color:white;
-font-size:1.8rem;
 }
 
         @-webkit-keyframes heartbeat {
@@ -236,8 +230,9 @@ font-size:1.8rem;
         <section class="hero">
             <div class="hero-content" data-aos="fade-up">
                 <h2>Conexión estable en cualquier lugar</h2>
-                <p>Obtén acceso a Internet de alta velocidad. Somos tu opción más segura, con atención personalizada y soporte experto en todo momento.</p>
-                <a href="https://wa.link/4cdul2" target="_blank" rel="noopener noreferrer"><div class="cta" style="font-size: 1rem;">¡ Disponible en Venezuela! <br><span style="color:red;font-size:1.4rem">¡Clic Aquí!</span></div></a>
+                <div class="cta" style="font-size: 1.4rem; background-color: transparent;box-shadow: none;text-shadow: 2px 2px 2px black;font-weight: 800; margin-top: -16px;">¡ Disponible en Venezuela ! </div>
+                <p>Obtén acceso a Internet de alta velocidad. de forma segura, soporte experto en todo momento y puedes pagar al recibir.</p>
+                
             </div>
         </section>
         
@@ -245,9 +240,7 @@ font-size:1.8rem;
 <main>
     <div class="container">
         <div data-aos="fade-up">
-            <h2>INTERNET DE ALTA VELOCIDAD 
-                HASTA EN LAS UBICACIONES MÁS REMOTAS</h2>
-	<h3>Pagas al Recibir</h3>
+            <h2>Internet de alta velocidad hasta en las ubicaciones más remotas</h2>
 
         </div>
 
@@ -258,25 +251,25 @@ font-size:1.8rem;
                     <img src="MINI-05Large_2048x.webp" alt="" width="350px">
                 </div>
                 
-                <div style="width: 45%; min-width: 350px; padding: 16px;" data-aos="fade-right">
-                    <h2>VEA PELÍCULAS, HAGA VIDEOLLAMADAS, JUEGUE Y MÁS</h2>
+                <div style="width: 45%; min-width: 400px; padding: 16px; display: flex; flex-wrap: wrap;justify-content: center;" data-aos="fade-right">
+                    <h2>Vea películas, haga videollamadas, juegue y más</h2>
                     <p>
                         Participe en actividades que históricamente no han sido posibles con internet satelital. 
                         Esto es posible gracias a la constelación más grande de satélites altamente avanzados que 
-                        operan en una órbita baja alrededor de la Tierra.
-
-                        <a href="https://wa.link/4cdul2" target="_blank" rel="noopener noreferrer"> <div class="cta" style="font-size: 1rem;">¡Solicita información sin compromiso! <br><span style="color:red;font-size:1.4rem">¡Clic Aquí!</span></div></a>
-                    </p>
+                        operan en una órbita baja alrededor de la Tierra.</p>
+                        <h3 style="text-align: center;width: 100%; margin-top: 12px;">¡Solicita información sin compromiso!</h3>
+                        <a href="https://wa.link/4cdul2" target="_blank" rel="noopener noreferrer"> <div class="cta" style="font-size: 1rem;"><span style="color:rgb(255, 255, 255);font-size:1.4rem">¡Clic Aquí!</span></div></a>
+                    
                 </div>
                 
             </div>
             
          </div>
 
-        <div style="padding: 16px;margin-top: 16px; border-radius: 16px; color: white;" data-aos="fade-up">
+        <div style="padding: 16px;margin-top: 16px; border-radius: 16px; color: white; display: flex; flex-wrap: wrap; justify-content: center; border: solid 2px white;" data-aos="fade-up">
            <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center;">
                 <div style="width: 45%; min-width: 350px; padding: 16px;">
-                    <h2>DISEÑADO PARA QUE LOS PROPIOS USUARIOS LO INSTALEN</h2>
+                    <h2>Diseñado para que los propios usuarios lo instalen</h2>
                     <p>
                         Instale en solo dos pasos. Las instrucciones pueden seguirse en cualquier orden:
                     </p>
@@ -309,7 +302,8 @@ font-size:1.8rem;
                         Todos los planes de suscripción de Starlink incluyen datos ilimitados de alta velocidad en 
                         tierra sin contratos ni compromisos a largo plazo.
                     </p>
-                    <a href="https://wa.link/4cdul2" target="_blank" rel="noopener noreferrer"> <div class="cta" style="font-size: 1rem;">¡Solicita información sobre envios a Venezuela! <br><span style="color:red;font-size:1.4rem">¡Clic Aquí!</span></div></a>
+                    <h3 style="text-align: center; margin-top: 16px;">¡Solicita información sobre envios a Venezuela! </h3>
+                    <a href="https://wa.link/4cdul2" target="_blank" rel="noopener noreferrer"> <div class="cta" style="font-size: 1rem;"><span style="color:rgb(255, 255, 255);font-size:1.4rem">¡Clic Aquí!</span></div></a>
                 </div>
 
                 <div style="width: 45%; min-width: 350px; padding: 16px;" data-aos="zoom-in">
@@ -321,7 +315,7 @@ font-size:1.8rem;
            
         </div>
 
-        <div style="padding: 16px;margin-top: 16px; border-radius: 16px; color: white;" data-aos="zoom-in">
+        <div style="padding: 16px;margin-top: 16px; border-radius: 16px; color: white; display: flex; flex-wrap: wrap; justify-content: center;" data-aos="zoom-in">
             <h2>RESISTENTE A LAS INCLEMENCIAS CLIMÁTICAS</h2>
             <p>
                 stá diseñado para aguantar diferentes condiciones climáticas: puede resistir lluvias intensas y vientos fuertes.
@@ -336,7 +330,6 @@ font-size:1.8rem;
                 <li>Garantía de satisfacción con soporte técnico incluido.</li>
                 <li>Entrega rápida y segura a tu ubicación.</li>
                 <li>Precios competitivos y planes flexibles.</li>
-		<li>Pagas al recibir.</li>
             </ul>
         </section>
 
