@@ -98,6 +98,8 @@
             border-radius: 5px;
             cursor: pointer;
             transition: background 0.3s;
+            -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+	        animation: heartbeat 1.5s ease-in-out infinite both;
         }
         .cta:hover {
             background: #092c6b;
@@ -138,6 +140,74 @@
 
         }
 
+        @-webkit-keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+@keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
 
     </style>
 </head>
@@ -147,7 +217,7 @@
             <div class="hero-content" data-aos="fade-up">
                 <h2>Conexión estable en cualquier lugar</h2>
                 <p>Obtén acceso a Internet de alta velocidad. Somos tu opción más segura, con atención personalizada y soporte experto en todo momento.</p>
-                <div class="cta" style="font-size: 1.4rem;">¡ Disponible en Venezuela !</div>
+                <a href="https://wa.link/4cdul2" target="_blank" rel="noopener noreferrer"><div class="cta" style="font-size: 1.4rem;">¡ Disponible en Venezuela !</div></a>
             </div>
         </section>
         
@@ -173,6 +243,8 @@
                         Participe en actividades que históricamente no han sido posibles con internet satelital. 
                         Esto es posible gracias a la constelación más grande de satélites altamente avanzados que 
                         operan en una órbita baja alrededor de la Tierra.
+
+                        <a href="https://wa.link/4cdul2" target="_blank" rel="noopener noreferrer"> <div class="cta" style="font-size: 1.4rem;">¡Solicita información sin compromiso!</div></a>
                     </p>
                 </div>
                 
@@ -180,7 +252,7 @@
             
          </div>
 
-        <div style="padding: 16px;margin-top: 16px padding: 16px; border-radius: 16px; color: white;" data-aos="fade-up">
+        <div style="padding: 16px;margin-top: 16px; border-radius: 16px; color: white;" data-aos="fade-up">
            <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center;">
                 <div style="width: 45%; min-width: 350px; padding: 16px;">
                     <h2>DISEÑADO PARA QUE LOS PROPIOS USUARIOS LO INSTALEN</h2>
@@ -202,12 +274,11 @@
            </div>
            
             <div style="padding: 16px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center;" data-aos="zoom-in">
-                <a href="https://play.google.com/store/apps/details?id=com.starlink.mobile" style="margin: 6px; font-size: 12px;">DESCARGAR PARA ANDROID</a>
-                <a href="https://apps.apple.com/app/starlink/id1537177988" style="margin: 6px; font-size: 12px;">DESCARGAR PARA IPHONE</a>
+               
             </div>
         </div>
 
-        <div style="padding: 16px;margin-top: 16px padding: 16px; border-radius: 16px; color: white;">
+        <div style="padding: 16px;margin-top: 16px; border-radius: 16px; color: white;">
             
             <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center;">
                 
@@ -217,6 +288,7 @@
                         Todos los planes de suscripción de Starlink incluyen datos ilimitados de alta velocidad en 
                         tierra sin contratos ni compromisos a largo plazo.
                     </p>
+                    <a href="https://wa.link/4cdul2" target="_blank" rel="noopener noreferrer"> <div class="cta" style="font-size: 1.4rem;">¡Solicita información sobre envios a Venezuela!</div></a>
                 </div>
 
                 <div style="width: 45%; min-width: 350px; padding: 16px;" data-aos="zoom-in">
@@ -228,14 +300,14 @@
            
         </div>
 
-        <div style="padding: 16px;margin-top: 16px padding: 16px; border-radius: 16px; color: white;" data-aos="zoom-in">
+        <div style="padding: 16px;margin-top: 16px; border-radius: 16px; color: white;" data-aos="zoom-in">
             <h2>RESISTENTE A LAS INCLEMENCIAS CLIMÁTICAS</h2>
             <p>
                 stá diseñado para aguantar diferentes condiciones climáticas: puede resistir lluvias intensas y vientos fuertes.
             </p>
         </div>
 
-        <section class="features" style="padding: 16px;margin-top: 16px padding: 16px; border-radius: 16px; color: white;" data-aos="fade-up">
+        <section class="features" style="padding: 16px;margin-top: 16px; border-radius: 16px; color: white;" data-aos="fade-up">
             <h2>¿Por qué elegirnos?</h2>
             <ul>
                 <li>Somos distribuidores confiables con experiencia comprobada.</li>
